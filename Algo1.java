@@ -38,7 +38,7 @@ class Algo1 {
         }
 
         System.out.print("\b\b "+"]");
-        System.out.println("\nMaximum posible Fibonacci sequence number for "+number+ " is: "+fibArray[j-1]);
+        System.out.println("\nMaximum possible Fibonacci sequence number for "+number+ " is: "+fibArray[j-1]);
     }
 
 }

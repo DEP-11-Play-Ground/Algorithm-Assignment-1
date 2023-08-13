@@ -1,4 +1,3 @@
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class Algo7 {
@@ -45,7 +44,6 @@ public class Algo7 {
             }
         }
 
-        //System.out.println(Arrays.toString(words));
         System.out.println("longest word is: ["+ words[l]+"] and its length is: "+ longWord);
         System.out.println("Shortest word is: ["+ words[s]+"] and its length is: "+ shortWord);
 

@@ -8,7 +8,6 @@ public class Algo8 {
 
           int[] temp = new int[numA.length];
         int count = 0;
-        boolean flag = false;
 
         for (int j = 0; j < numA.length; j++) {
 
@@ -34,7 +33,7 @@ public class Algo8 {
         for (int i = 0; i < numA.length; i++) {
 
             loop: for (int j = 0; j < AandB.length; j++) {
-             //   System.out.println(numA[i] + "  " + AandB[j]);
+
                 if (AandB[j] == numA[i]) {
                     break loop;
                 }
@@ -50,7 +49,7 @@ public class Algo8 {
         for (int i = 0; i < numB.length; i++) {
 
             loop: for (int j = 0; j < AandB.length; j++) {
-             //  System.out.println(numB[i] + "  " + AandB[j]);
+          
                 if (AandB[j] == numB[i]) {
                     break loop;
                 }
@@ -63,11 +62,7 @@ public class Algo8 {
 
         }
 
-        System.out.println(Arrays.toString(AandB));
-        System.out.println(Arrays.toString(aArray));
-        System.out.println(Arrays.toString(bArray));
-
-        System.out.println("numA numB Intersection: "+Arrays.toString(AandB));
+       System.out.println("numA numB Intersection: "+Arrays.toString(AandB));
 
        System.out.print("Union of numA and numB: [ ");
        for (int i = 0; i < aArray.length; i++) {
@@ -94,9 +89,6 @@ public class Algo8 {
         System.out.print(bArray[i] + ", ");    
        }
        System.out.println("\b\b ]");
-
-        
-
 
     }
 }
